@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842EDE74264EC20100BF8633 /* Buscador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EDE73264EC20100BF8633 /* Buscador.swift */; };
+		842EDE76264ECC7F00BF8633 /* ReverseGeocoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EDE75264ECC7F00BF8633 /* ReverseGeocoding.swift */; };
 		8492DEDC264E03CB008F9553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492DEDB264E03CB008F9553 /* AppDelegate.swift */; };
 		8492DEDE264E03CB008F9553 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492DEDD264E03CB008F9553 /* SceneDelegate.swift */; };
-		8492DEE0264E03CB008F9553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492DEDF264E03CB008F9553 /* ViewController.swift */; };
 		8492DEE3264E03CB008F9553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492DEE1264E03CB008F9553 /* Main.storyboard */; };
 		8492DEE5264E03CC008F9553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8492DEE4264E03CC008F9553 /* Assets.xcassets */; };
 		8492DEE8264E03CC008F9553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492DEE6264E03CC008F9553 /* LaunchScreen.storyboard */; };
+		8492DEF0264E0452008F9553 /* Coodenadas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492DEEF264E0452008F9553 /* Coodenadas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842EDE73264EC20100BF8633 /* Buscador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buscador.swift; sourceTree = "<group>"; };
+		842EDE75264ECC7F00BF8633 /* ReverseGeocoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocoding.swift; sourceTree = "<group>"; };
 		8492DED8264E03CB008F9553 /* MapasYCoordenadas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapasYCoordenadas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8492DEDB264E03CB008F9553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8492DEDD264E03CB008F9553 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8492DEDF264E03CB008F9553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8492DEE2264E03CB008F9553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8492DEE4264E03CC008F9553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8492DEE7264E03CC008F9553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8492DEE9264E03CC008F9553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8492DEEF264E0452008F9553 /* Coodenadas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coodenadas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				8492DEDB264E03CB008F9553 /* AppDelegate.swift */,
 				8492DEDD264E03CB008F9553 /* SceneDelegate.swift */,
-				8492DEDF264E03CB008F9553 /* ViewController.swift */,
+				8492DEEF264E0452008F9553 /* Coodenadas.swift */,
+				842EDE73264EC20100BF8633 /* Buscador.swift */,
+				842EDE75264ECC7F00BF8633 /* ReverseGeocoding.swift */,
 				8492DEE1264E03CB008F9553 /* Main.storyboard */,
 				8492DEE4264E03CC008F9553 /* Assets.xcassets */,
 				8492DEE6264E03CC008F9553 /* LaunchScreen.storyboard */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8492DEE0264E03CB008F9553 /* ViewController.swift in Sources */,
+				842EDE74264EC20100BF8633 /* Buscador.swift in Sources */,
+				8492DEF0264E0452008F9553 /* Coodenadas.swift in Sources */,
 				8492DEDC264E03CB008F9553 /* AppDelegate.swift in Sources */,
 				8492DEDE264E03CB008F9553 /* SceneDelegate.swift in Sources */,
+				842EDE76264ECC7F00BF8633 /* ReverseGeocoding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
